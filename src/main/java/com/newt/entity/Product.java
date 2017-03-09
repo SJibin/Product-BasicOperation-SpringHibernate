@@ -3,7 +3,6 @@ package com.newt.entity;
 import java.util.Date;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -13,7 +12,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Table(name = "PRODUCT")
 public class Product {
 	@Id
-	@GeneratedValue
 	private int productId;
 	private String itemName;
 	private long totalInStock;
@@ -66,5 +64,4 @@ public class Product {
 		return "Product [productId=" + productId + ", itemName=" + itemName + ", totalInStock=" + totalInStock
 				+ ", description=" + description + ", soldDate=" + soldDate + "]";
 	}
-	
 }

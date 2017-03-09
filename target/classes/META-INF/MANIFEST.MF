@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Implementation-Title: Product_BasicOperation_SpringHibernate
+Implementation-Title: Product-BasicOperations-SpringHibernateSwagger
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: jibins
 Implementation-Vendor-Id: org.maven
 Build-Jdk: 1.8.0_112
-Implementation-URL: http://projects.spring.io/spring-boot/Product_Basi
- cOperation_SpringHibernate/
+Implementation-URL: http://projects.spring.io/spring-boot/Product-Basi
+ cOperations-SpringHibernateSwagger/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 
